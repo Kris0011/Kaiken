@@ -52,7 +52,7 @@ const MainLayout = ({ children, requireAuth = false, requireAdmin = false }: Mai
   }
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen font-lato">
       <Navbar />
       <main className="flex-grow">
         {children}
