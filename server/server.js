@@ -30,7 +30,7 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 app.use(cors(
     {
-        origin: process.env.CORS_ORIGIN || "http://localhost:5173",
+        origin: process.env.CORS_ORIGIN || "https://kaiken.krispatel.me",
         methods: ["GET", "POST", "PUT", "DELETE"],
         credentials: true,
     }

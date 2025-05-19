@@ -20,7 +20,7 @@ export default function HeroSection() {
                             <span className="text-accent">Profit.</span>
                         </h1>
                         <p className="text-accent-600 text-2xl font-semibold mb-6 max-w-lg">
-                            Kiken — Where Risk Becomes Reward
+                            Kaiken — Where Risk Becomes Reward
                         </p>
                         <p className="text-lg md:text-lg text-muted-foreground mb-6 max-w-lg">
                             Trade on real-world events with confidence. Buy YES or NO shares and earn profits when your predictions
