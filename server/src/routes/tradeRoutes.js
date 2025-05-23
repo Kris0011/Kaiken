@@ -7,7 +7,7 @@ const { authMiddleware } = require('../middlewares/authMiddleware');
 const router = express.Router();
 
 router.post('/', authMiddleware, authorizeRoles('user', 'admin'), tradeController.createTrade);
-router.get('/', authAdmin, tradeController.getAllTrades);
+router.get('/', tradeController.getAllTrades);
 
 // User-specific trade endpoint
 router.get('/mytrades', authMiddleware, tradeController.getUserTrades);
